@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080/auth";
+const BASE_URL = "https://lifestyle-auth-backend.onrender.com/auth";
 
 export async function registerUser(data) {
   const res = await fetch(`${BASE_URL}/register`, {

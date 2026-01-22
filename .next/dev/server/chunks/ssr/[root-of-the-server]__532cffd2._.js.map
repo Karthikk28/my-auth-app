@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Frontend%20VSC/my-auth-app/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <div style={{padding:20}}>\n      <h1>Welcome to Homepage</h1>\n      <p>This is your main landing page.</p>\n      <a href=\"/login\">Go to Login</a>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YAAC,SAAQ;QAAE;;0BACrB,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBAAE,MAAK;0BAAS;;;;;;;;;;;;AAGvB"}}]
+}

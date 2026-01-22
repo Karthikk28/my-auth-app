@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Frontend%20VSC/my-auth-app/app/components/Navbar.jsx"],"sourcesContent":["export default function Navbar() {\n  return (\n    <nav style={{padding:20, background:\"#667eea\", color:\"white\"}}>\n      <h3>My Auth App</h3>\n    </nav>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,OAAO;YAAC,SAAQ;YAAI,YAAW;YAAW,OAAM;QAAO;kBAC1D,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGV"}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///C:/Frontend%20VSC/my-auth-app/app/page.js"],"sourcesContent":["import Navbar from \"./components/Navbar\";\n\nexport default function HomePage() {\n  return (\n    <>\n      <Navbar />\n\n      <div className=\"auth-page\">\n        <div className=\"auth-card\">\n          <h1>Welcome to My Auth App</h1>\n\n          <p><a href=\"/auth/login\">Login</a></p>\n          <p><a href=\"/auth/register\">Register</a></p>\n        </div>\n      </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC,uIAAM;;;;;0BAEP,8OAAC;gBAAI,WAAU;0BACb,cAAA,8OAAC;oBAAI,WAAU;;sCACb,8OAAC;sCAAG;;;;;;sCAEJ,8OAAC;sCAAE,cAAA,8OAAC;gCAAE,MAAK;0CAAc;;;;;;;;;;;sCACzB,8OAAC;sCAAE,cAAA,8OAAC;gCAAE,MAAK;0CAAiB;;;;;;;;;;;;;;;;;;;;;;;;AAKtC"}}]
+}

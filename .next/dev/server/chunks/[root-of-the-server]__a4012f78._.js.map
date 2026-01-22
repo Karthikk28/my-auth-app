@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Frontend%20VSC/my-auth-app/app/auth/api/route.js"],"sourcesContent":["export async function POST(req) {\n  const body = await req.json();\n\n  const res = await fetch(\"http://localhost:8080/api/auth/login\", {\n    method: \"POST\",\n    headers: { \"Content-Type\": \"application/json\" },\n    body: JSON.stringify(body),\n  });\n\n  return Response.json(await res.json());\n}\n"],"names":[],"mappings":";;;;AAAO,eAAe,KAAK,GAAG;IAC5B,MAAM,OAAO,MAAM,IAAI,IAAI;IAE3B,MAAM,MAAM,MAAM,MAAM,wCAAwC;QAC9D,QAAQ;QACR,SAAS;YAAE,gBAAgB;QAAmB;QAC9C,MAAM,KAAK,SAAS,CAAC;IACvB;IAEA,OAAO,SAAS,IAAI,CAAC,MAAM,IAAI,IAAI;AACrC"}}]
+}
